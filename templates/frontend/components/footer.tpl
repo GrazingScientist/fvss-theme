@@ -34,7 +34,7 @@
 				<div id=hosted_by>
 					Hosted by<br>
 					<a href="http://www.ub.uni-frankfurt.de/">
-						<img id=footer_ublogo src="../../../../../../public/images/ublogo.jpg" />
+						<img id=footer_ublogo src="../../../../../../public/images/ublogo_transparent.png" />
 					</a>
 				</div>
 				<div id=powered_by>

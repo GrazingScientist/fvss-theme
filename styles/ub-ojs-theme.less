@@ -31,11 +31,11 @@
 
 .pkp_structure_main {
   padding-bottom: 10px;
-  border-bottom: @thin-border;
 }
 
 .pkp_structure_content.has_sidebar {
   background-color: @bg-main-content-frame;
+  border-bottom: @standard-border;
 }
 
 .obj_issue_toc .section h2 {
@@ -43,6 +43,34 @@
   color: @text-section-header;
 }
 
+/* Current Issue */
+.current_issue {
+  h2 {
+    margin: 0 0;
+  }
+
+  .section h2 {
+    margin: 20px 0;
+  }
+}
+
+.obj_issue_toc {
+  
+  .published {
+    margin: 10px 0;
+  }
+
+  .sections:not(:first-child) {
+    margin-top: @space-sections-top;
+  }
+
+  .section {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
 /* Sidebar */
 .pkp_structure_sidebar {
   padding: 5px 10px;

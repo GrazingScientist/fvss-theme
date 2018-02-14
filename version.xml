@@ -2,14 +2,14 @@
 <!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
 
 <!--
-  * plugins/themes/fvss-theme/version.xml
+  * plugins/themes/ob-ojs-theme/version.xml
   *
   * Plugin version information.
   -->
 
 <version>
 	<!-- The application should match the theme folder to ensure it is unique -->
-	<application>fvss-theme</application>
+	<application>ub-ojs-theme</application>
 
 	<!-- The type should always be `plugins.themes` -->
 	<type>plugins.themes</type>
@@ -19,10 +19,10 @@
 	    Valid: 1.0.2.3, 0.1.4.0
 		Invalid: 1.0, v1.0.4, 1.0.0.0b
 	-->
-	<release>1.0.0.0</release>
+	<release>1.0.0.1</release>
 
 	<!-- The date of the latest version -->
-	<date>2018-01-19</date>
+	<date>2018-02-13</date>
 
 	<!-- This should always be 0 -->
 	<lazy-load>0</lazy-load>

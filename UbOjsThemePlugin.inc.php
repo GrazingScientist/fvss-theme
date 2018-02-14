@@ -1,16 +1,16 @@
 <?php
 /**
- * @file plugins/themes/default/FvssThemePlugin.inc.php
+ * @file plugins/themes/ub-ojs-theme/UbOjsThemePlugin.inc.php
  *
- * @class FvssThemePlugin
+ * @class UbOjsThemePlugin
  * @ingroup plugins_themes_default
  *
- * @brief Fvss theme
+ * @brief UB OJS standard theme
  */
 
 import('lib.pkp.classes.plugins.ThemePlugin');
 
-class FvssThemePlugin extends ThemePlugin {
+class UbOjsThemePlugin extends ThemePlugin {
 	
 	/**
 	 * Initialize the theme's styles, scripts and hooks. This is only run for
@@ -21,7 +21,6 @@ class FvssThemePlugin extends ThemePlugin {
 	public function init() {
 		$this->setParent('defaultthemeplugin');
 		$this->modifyStyle('stylesheet', array('addLess' => array('styles/index.less')));
-		//$this->modifyStyle('stylesheet', array('addLess' => array('styles/fvss-style.less')));
 	}
 	
 	/**
@@ -29,7 +28,7 @@ class FvssThemePlugin extends ThemePlugin {
 	 * @return string
 	 */
 	function getDisplayName() {
-		return "Flora et Vegetatio Sudano-Sambesica";
+		return "UB OJS Standard Theme";
 	}
 	
 	/**
@@ -37,6 +36,6 @@ class FvssThemePlugin extends ThemePlugin {
 	 * @return string
 	 */
 	function getDescription() {
-		return "The default theme, modified for Flora et Vegetatio Sudano-Sambesica";
+		return "The default theme, slightly modified";
 	}
 }

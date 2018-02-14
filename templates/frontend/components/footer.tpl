@@ -34,12 +34,13 @@
 				<div id=hosted_by>
 					Hosted by<br>
 					<a href="http://www.ub.uni-frankfurt.de/">
-						<img id=footer_ublogo src="../../../../../../public/images/ublogo_transparent.png" />
+						<img id=footer_ublogo src="{$baseUrl}/plugins/themes/ub-ojs-theme/images/ublogo_transparent.png" />
 					</a>
 				</div>
 				<div id=powered_by>
-					Powered by<br>
-					<img src="../../../../../../lib/pkp/templates/images/pkp_brand.png" />
+					<a href="{url page="about" op="aboutThisPublishingSystem"}" target="_blank">
+						<img src="{$baseUrl}/{$brandImage}" />
+					</a>
 				</div>
 			</div>
 			

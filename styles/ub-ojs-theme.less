@@ -1,8 +1,12 @@
-/*Main Stuff*/
+/*General Stuff*/
 
 .obj_issue_toc .section h2 {
   color: black;
   background: @bg;
+}
+
+.cmp_notification {
+  background: @bg-base;
 }
 
 /* Logo */
@@ -68,6 +72,30 @@
   color: @text-section-header;
 }
 
+.pkp_navigation_user > li > a:first-child {
+  margin-top: 10px; 
+  font-weight: bold;
+  text-decoration: none;
+  background-color: f0ecec;
+  color: #333333;
+  padding: 0 1em;
+  line-height: 28px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.helping-block {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 10px 30px;
+}
+
+a.helping-block {
+  text-decoration: none;
+}
+
 /* Current Issue */
 .current_issue {
   h2 {
@@ -96,6 +124,20 @@
     margin-bottom: 10px;
   }
 }
+
+.obj_issue_toc .section::before {
+  border-top: 0;
+}
+
+.pkp_structure_main::after {
+  background: none;
+}
+
+/* Archive */
+.page_issue_archive .issues_archive > li {
+  padding: 15px 10px;
+}
+
 /* Sidebar */
 .pkp_structure_sidebar {
   padding: 5px 10px;
@@ -113,6 +155,10 @@
   .content ul li {
     line-height: 10px;
   }
+}
+
+a.read_more {
+  margin-top: 60px;
 }
 
 /* Footer */
